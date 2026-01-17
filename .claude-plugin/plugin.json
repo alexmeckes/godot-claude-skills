@@ -1,0 +1,14 @@
+{
+  "name": "godot-claude-skills",
+  "version": "1.0.0",
+  "description": "Claude Code skills for Godot 4.x game development - GDScript patterns, live editor control, scene design, and shaders",
+  "author": {
+    "name": "Your Name",
+    "email": "your@email.com"
+  },
+  "repository": "https://github.com/alexmeckes/godot-claude-skills",
+  "homepage": "https://github.com/alexmeckes/godot-claude-skills",
+  "license": "MIT",
+  "keywords": ["godot", "gamedev", "gdscript", "game-development", "shaders"],
+  "skills": "./skills/"
+}
