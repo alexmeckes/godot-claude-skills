@@ -2,6 +2,10 @@
 
 A Claude Code plugin for Godot 4.x game development. Provides specialized skills that enhance Claude's ability to work with Godot projects.
 
+> **🎮 Best used with [godot-mcp](https://github.com/alexmeckes/godot-mcp)**
+>
+> This plugin provides the *knowledge* (best practices, patterns, workflows), while **godot-mcp** provides the *tools* (reading/writing scenes, scripts, shaders, and live editor control). Install both for the full Godot + Claude experience.
+
 ## Skills Included
 
 | Skill | Description |
@@ -46,8 +50,7 @@ Once installed, Claude will automatically use these skills when working on Godot
 
 - [Claude Code](https://claude.ai/code) with plugin support
 - [Godot 4.x](https://godotengine.org/)
-- [godot-mcp](https://github.com/alexmeckes/godot-mcp) - MCP server for Godot file operations (optional)
-- [godot-ai-bridge](https://github.com/alexmeckes/godot-ai-bridge) - Godot plugin for real-time editor control (optional, for live editing)
+- **[godot-mcp](https://github.com/alexmeckes/godot-mcp)** - MCP server that gives Claude the ability to read/write Godot files and control the editor (highly recommended)
 
 ## Plugin Structure
 
