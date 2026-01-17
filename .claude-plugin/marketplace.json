@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "godot-claude-skills",
-      "source": ".",
+      "source": "./",
       "description": "GDScript patterns, live editor control, scene design, and shader authoring for Godot 4.x",
       "version": "1.0.0"
     }
