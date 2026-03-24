@@ -1,6 +1,6 @@
 # Godot Claude Skills
 
-A Claude Code plugin for Godot 4.x game development. Provides specialized skills that enhance Claude's ability to work with Godot projects.
+A Claude Code skill pack for Godot 4.x game development. It provides reusable knowledge and workflow skills that complement `godot-mcp`.
 
 > **🎮 Best used with [godot-mcp](https://github.com/alexmeckes/godot-mcp)**
 >
@@ -11,9 +11,15 @@ A Claude Code plugin for Godot 4.x game development. Provides specialized skills
 | Skill | Description |
 |-------|-------------|
 | `godot-code-gen` | GDScript best practices, type hints, signals, state machines |
-| `godot-live-edit` | Real-time Godot editor control via AI Bridge plugin |
+| `godot-live-edit` | Lightweight live-editor guidance via the AI Bridge plugin |
+| `godot-interactive` | Advanced persistent `godot-mcp` + AI Bridge workflow for inspect/edit/run/debug loops |
 | `godot-scene-design` | Scene files (.tscn), node hierarchies, level layouts |
 | `godot-shader` | Shader authoring for 2D/3D effects and post-processing |
+
+## Which Live Skill To Use
+
+- Use `godot-interactive` when you are working through `godot-mcp` and want a persistent, evidence-driven editor/runtime loop.
+- Use `godot-live-edit` when you want simpler live-edit guidance without the fuller session workflow.
 
 ## Installation
 
@@ -42,6 +48,7 @@ claude --plugin-dir ./godot-claude-skills
 Once installed, Claude will automatically use these skills when working on Godot projects. The skills provide context for:
 
 - **GDScript patterns** - Type hints, signals, state machines, async/await, tweens
+- **Interactive live sessions** - Inspect, edit, run, debug, and automate a Godot project through `godot-mcp`
 - **Live editing** - Control the Godot editor in real-time via the AI Bridge plugin
 - **Scene design** - Best practices for .tscn files, node hierarchies, collision layers
 - **Shaders** - 2D/3D shader patterns, uniforms, post-processing effects
@@ -60,7 +67,8 @@ godot-claude-skills/
 │   └── plugin.json       # Plugin manifest
 ├── skills/
 │   ├── godot-code-gen/   # GDScript best practices
-│   ├── godot-live-edit/  # Real-time editor control
+│   ├── godot-live-edit/  # Lightweight live-editor guidance
+│   ├── godot-interactive/ # Advanced persistent MCP + AI Bridge workflow
 │   ├── godot-scene-design/ # Scene file patterns
 │   └── godot-shader/     # Shader authoring
 └── README.md

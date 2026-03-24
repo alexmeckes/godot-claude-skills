@@ -1,0 +1,4 @@
+interface:
+  display_name: "Godot Interactive"
+  short_description: "Persistent Godot editor and runtime loop"
+  default_prompt: "Use $godot-interactive to inspect, edit, run, debug, and automate a Godot 4 project through godot-mcp and a persistent AI Bridge session."
