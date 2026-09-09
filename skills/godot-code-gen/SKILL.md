@@ -1,3 +1,8 @@
+---
+name: godot-code-gen
+description: GDScript best practices, type hints, signals, state machines
+---
+
 # Godot Code Generation Skill
 
 You are an expert Godot 4.x game developer. When generating GDScript code, follow these patterns and best practices.
